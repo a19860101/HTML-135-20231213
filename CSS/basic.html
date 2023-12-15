@@ -19,7 +19,7 @@
 
         /* ID (只可使用一次)*/
         #xyz {
-            color:lightseagreen;
+            color:#f4c257;
         }
     </style>
 </head>
@@ -32,12 +32,17 @@
         <li class="abc">內部</li>
         <li class="abc">外部</li>
     </ul>
-    <h3>選取器</h3>
+    <h3 class="abc" id="xyz" style="color:crimson;">選取器</h3>
     <ul>
         <li>標籤 tag</li>
         <li>類別 class</li>
-        <li id="xyz">ID</li>
+        <li>ID</li>
     </ul>
+    <!-- 
+        CSS 權重 （css specificity）
+        元素影響範圍愈少，權重愈重，愈優先套用
+        嵌入式 > id > class > tag
+     -->
 
 </body>
 </html>
