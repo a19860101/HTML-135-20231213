@@ -8,12 +8,30 @@
         table {
             width: 600px;
             height: 400px;
-            /* border: 1px solid #000; */
+            border: 1px solid #000;
             border-collapse: collapse;
+            /* border-spacing: 10px; */
         }
         td, th {
             border: 1px solid #000;
-            background-color: pink;
+            /* background-color: pink; */
+        }
+        
+        tr:nth-of-type(odd) {
+            background-color: #f9ca6a;
+        }
+        tr:nth-of-type(even) {
+            background-color: #fa0;
+        }
+        /* 
+            odd 奇數
+            even 偶數
+        */
+        tr:first-of-type{
+            background-color: #600bff;
+        }
+        tr:last-of-type{
+            background-color: #c2ff0b;
         }
     </style>
 </head>
@@ -24,6 +42,24 @@
             <th>標題</th>
             <th>標題</th>
             <th>標題</th>
+        </tr>
+        <tr>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+        </tr>
+        <tr>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+        </tr>
+        <tr>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
         </tr>
         <tr>
             <td>內容</td>
