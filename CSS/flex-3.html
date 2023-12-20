@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 1200px;
+            margin: auto;
+            background-color: #ccc;
+            display: flex;
+            flex-direction: row;
+
+        }
+        .col:nth-of-type(1) {
+            background-color: #fa0;
+            /* width: 600px; */
+            /* flex-basis:800px; */
+            /* flex-grow:0; */
+            /* flex-shrink:0; */
+            flex:0 0 800px;
+        }
+        .col:nth-of-type(2) {
+            background-color: #0af;
+            /* flex-basis:800px; */
+            /* flex-grow:0; */
+            /* flex-shrink:1; */
+            flex: 0 1 800px;
+
+            /* flex:grow shrink basis */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum, consectetur aut quae facilis temporibus, iste itaque labore esse vero nesciunt explicabo magni similique qui tempore, eos culpa aspernatur non!
+            </p>
+        </div>
+        <div class="col">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum, consectetur aut quae facilis temporibus, iste itaque labore esse vero nesciunt explicabo magni similique qui tempore, eos culpa aspernatur non!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
