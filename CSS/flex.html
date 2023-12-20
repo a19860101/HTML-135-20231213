@@ -9,6 +9,7 @@
             box-sizing: border-box;
         }
         .container {
+            background-color: #ccc;
             max-width: 1200px;
             margin-left: auto;
             margin-right: auto;
@@ -17,11 +18,15 @@
             flex-wrap: wrap;
             flex-direction: row;
             /* row, column, row-reverse, column-reverse */
+
+            justify-content: space-around;
+            /* start, center, end, space-between, space-around, space-evenly */
         }
         .col {
-            /* width: 300px; */
-            width: 25%;
+            width: 200px;
+            /* width: 25%; */
             padding: 15px;
+            text-align: justify;
         }
     </style>
 </head>
