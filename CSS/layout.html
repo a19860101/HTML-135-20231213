@@ -20,7 +20,7 @@
             padding: 0;
         }
         html {
-            scroll-behavior: smooth;
+            /* scroll-behavior: smooth; */
         }
         img {
             width: 100%;
@@ -50,6 +50,7 @@
             text-decoration: none;
             padding: 5px 12px;
             border-radius: 5px;
+            transition: 600ms;
         }
         .nav-link:hover {
             color: #ffec58;
@@ -109,13 +110,15 @@
         .folio-col {
             flex: 1 0 300px;
         }
-        .folio-col a img {
-            opacity: .5;
-            filter:grayscale()
-        }
+        
         .folio-col a {
             display: block;
             background-color: #000;
+        }
+        .folio-col a img {
+            opacity: .5;
+            filter:grayscale();
+            transition: 600ms;
         }
         .folio-col a:hover img {
             opacity: 1;
