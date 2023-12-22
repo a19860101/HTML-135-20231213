@@ -24,6 +24,10 @@
             align-items: center;
             padding-left:15px;
             padding-right:15px;
+
+            position: fixed;
+            top: 0;
+            left: 0;
         }
         .nav-menu {
             margin-left: auto;
@@ -50,6 +54,7 @@
             background-position: center;
 
             background-color: #ccc;
+            position: relative;
         }
         .title {
             width: 100%;
@@ -96,6 +101,15 @@
             font-size: 14.4px;
             letter-spacing: 1px;
         }
+
+        .box {
+            background-color: #fff;
+            width: 300px;
+            padding: 30px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
     </style>
 </head>
 <body>
@@ -107,7 +121,14 @@
             <a href="#folios" class="nav-link">Folios</a>
         </div>
     </nav>
-    <header></header>
+    <header>
+        <div class="box">
+            <h1>HELLO</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, veniam?
+            </p>
+        </div>
+    </header>
     <section id="about">
         <div class="container">
             <div class="title">
